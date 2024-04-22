@@ -1,0 +1,52 @@
+    1  cd Desktop/
+    2  Desktop%
+    3  cd Desktop/
+    4  cd desktop.ini cd QA35
+    5  cd../
+    6  cd desktop/
+    7  cd desktop/
+    8  cd../
+    9  git clone <gh repo clone violettapavlenko/HW_10>
+   10  gh repo clone violettapavlenko/HW_10
+   11  git clone gh repo clone violettapavlenko/HW_10
+   12  cd <QA35>
+   13  cd QA35
+   14  cd Desktop
+   15  cd QA35
+   16  cd '/c/Users/HP_yosh1/OneDrive/Рабочий стол/QA35'
+   17  cd ../
+   18  cd ../
+   19  cd git clone 
+   20  cd '/c/Users/HP_yosh1/OneDrive/Рабочий стол/HW_10-main.zip'
+   21  touch text_ignore.txt
+   22  echo "text_ignore.txt" >> .gitignore
+   23  git status
+   24  git add .
+   25  git commit -m "Added text_ignore.txt to .gitignore"
+   26  cd ///
+   27  echo "text_ignore.txt" >> .gitignore
+   28  git add .
+   29  [200~git commit -m "Added text_ignore.txt to .gitignore"
+   30  cd '/c/Users/HP_yosh1/OneDrive/Рабочий стол/HW_10-main.zip'
+   31  git clone https://github.com/violettapavlenko/HW_10.git
+   32  cd HW_10
+   33  echo "text_ignore.txt" >> .gitignore
+   34  git status
+   35  git add .
+   36  git commit -m "Added text_ignore.txt to .gitignore"
+   37  touch main_test.txt
+   38  git add .
+   39  git commit -m "Added main_test.txt"
+   40  git chechout -b develop
+   41  git checkout -b develop
+   42  touch develop_test.txt
+   43  git add .
+   44  git commit -m "Added develop_test.txt"
+   45  echo "Some content for develop_test.txt" >> develop_test.txt
+   46  git status
+   47  git add .
+   48  git commit -m "Updated develop_test.txt with new content"
+   49  git checkout main
+   50  git merge develop
+   51  git log
+   52  history > command_list.csv
